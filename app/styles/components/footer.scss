@@ -1,0 +1,36 @@
+footer {
+  height: 50px;
+}
+
+.social-media {
+    position: absolute;
+    bottom: 0;
+	li {
+		list-style-type: none;
+	    display: inline-block;
+        margin-left: 0%;
+	}
+
+	.facebook-icon {
+    	background-image: url('../images/Facebook.png');
+    	background-repeat: no-repeat;
+        background-size: contain;
+        height: 5rem;
+        width: 5rem;
+	}
+
+	.twitter-icon {
+    	background-image: url('../images/Twitter.png');
+        background-size: contain;
+    	height: 5rem;
+        width: 5rem;
+	}
+
+	.gmail-icon {
+    	background-image: url('../images/Gmail.png');
+    	background-repeat: no-repeat;
+        background-size: contain;
+    	height: 5rem;
+        width: 5rem;
+	}
+}
