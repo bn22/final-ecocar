@@ -18,3 +18,7 @@ All the images must be loaded through .scss/.css like background-image: url('../
 
 ###CSS###
 All the .scss files from /app/styles will compile into css files from /build/css/
+
+###Admin Permission###
+Running the server may throw an error of "Error: EACCES: permission denied"
+This occurs if Gulp is not given admin access (i.e. sudo on Macs)
