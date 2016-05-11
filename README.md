@@ -1,9 +1,11 @@
 ###Install Node Modules###
 npm install
+
 The resulting directory should be around 110 MB
 
 ###Start the Server###
 gulp dev  - Dev Environment
+
 gulp prod - Production Environment
 
 ###If you want to edit the react code, this rebuilds###
@@ -11,6 +13,7 @@ gulp watch
 
 ###Test Server###
 The server will be available at localhost:3000
+
 It will also host a temporary server URL for you to run on your phone 
 
 ###Images###
@@ -21,4 +24,5 @@ All the .scss files from /app/styles will compile into css files from /build/css
 
 ###Admin Permission###
 Running the server may throw an error of "Error: EACCES: permission denied"
+
 This occurs if Gulp is not given admin access (i.e. sudo on Macs)
