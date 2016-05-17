@@ -12,13 +12,20 @@ class Footer extends React.Component{
   render() {
     return (
       <footer>
-       	<ul className="social-media">
-            <a href="https://www.facebook.com/UWEcoCAR2"><li className="facebook-icon"></li></a>
-            <a href="https://twitter.com/uwecocar"><li className="twitter-icon"></li></a>
-            <a href="mailto:uwecocar3@gmail.com"><li className="gmail-icon"></li></a>
+        <div className="left-content">
+          <p><b>UW EcoCar </b><br></br>
+            Mechancial Engineering <br></br>
+            Engineering Annex, Steven Way <br></br>
+            Seattle, WA 98105 <br></br>
+            uwecocar3@gmail.com</p>
+          </div>
+        <div className="right-content">
+        <ul className="social-media">
+            <li><a href="https://www.facebook.com/UWEcoCAR2"><img src={'../images/Facebook.png'} alt="boohoo"/></a></li>
+            <li><a href="https://twitter.com/uwecocar"><img src={'../images/Twitter.png'} alt="boohoo"/></a></li>
+            <li><a href="mailto:uwecocar3@gmail.com"><img src={'../images/Gmail.png'} alt="boohoo"/></a></li>
           </ul>
-
-
+        </div>
       </footer>
     );
   }

@@ -11,7 +11,40 @@ const Team = React.createClass({
          The UW EcoCAR3 team GM mentor, Michael Abowd, periodically visits to assist and advise the team. 
          At the end of each year is a competition where teams present their designs and their cars are tested.
         </p>
+      <h2>MEET THE TEAM</h2>
+      <div id="myCarousel" className="carousel slide" data-ride="carousel">
+        <div className="carousel-inner" role="listbox">
+          <div className="item active">
+          <img src="http://uwecocar.com/images/home/car.jpg"/>
+        </div>
+        <div className="item">
+          <img src="http://uwecocar.com/images/home/car.jpg"/>
+        </div>
+
+        <div className="item">
+          <img src="http://uwecocar.com/images/home/car.jpg"/>
+        </div>
+
+        <div className="item">
+          <img src="http://uwecocar.com/images/home/car.jpg"/>
+        </div>
       </div>
+      <a className="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span className="sr-only">Previous</span>
+      </a>
+      <a className="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span className="sr-only">Next</span>
+      </a>
+        <ol className="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+      </div>
+  </div>
     );
   }
 });

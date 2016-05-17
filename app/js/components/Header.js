@@ -14,6 +14,7 @@ class Header extends React.Component {
     return (
       <header>
           <ul className="nav-bar">
+            <li><img id="logo" src={'http://uwecocar.com/images/UWEcoCarLogoLarge.png'} /></li>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/join">Join</Link></li>
             <li><Link to="/media">Media</Link></li>

@@ -1,3 +1,90 @@
 header {
   height: 50px;
 }
+
+* {
+  padding: auto; }
+
+header {
+  height: 50px; }
+
+#who-are-we {
+  border: 2px solid #66FFFF; }
+#who-are-we img {
+    margin: 10px;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: bottom; }
+#who-are-we .content {
+    width: 75%;
+    display: inline-block;
+    vertical-align: top; }
+
+.summary {
+  border: 2px solid #FFCC66; }
+
+  .summary img {
+    margin: 10px;
+    width: 25%;
+    height: 100%;
+    display: inline-block; }
+
+  .summary .content {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top; }
+
+
+.goals {
+  border: 2px solid #66FF33; }
+
+  .goals img {
+    margin: 10px;
+    width: 27%;
+    height: 100%;
+    display: inline-block; }
+
+  .goals .content {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top; }
+
+#events .upcoming-events {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px; }
+
+  #events .upcoming-events .upevents {
+    width: 30%;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center; }
+
+    #events .upcoming-events .upevents .date {
+      width: 60px;
+      border: 2px solid #FFCC66;
+      border-radius: 5px;
+      display: inline-block;
+      text-align: center; }
+
+    #events .upcoming-events .upevents h4 {
+      margin: 0px; }
+
+    #events .upcoming-events .upevents .month {
+      padding: 6px;
+      color: white;
+      background-color: #FFCC00; }
+
+    #events .upcoming-events .upevents .day {
+      color: #FF9933; }
+
+    #events .upcoming-events .upevents p {
+      padding-top: 10px;
+      padding-left: 5px;
+      display: inline-block;
+      vertical-align: top; }
+
+#events .all-events {
+  text-align: center; }

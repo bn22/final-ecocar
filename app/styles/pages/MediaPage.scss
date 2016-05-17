@@ -1,3 +1,27 @@
 header {
   height: 50px;
 }
+
+header {
+  height: 50px; }
+
+.news {
+  border: 2px solid orange;
+  border-radius: 5px;
+  width: 45%;
+  display: inline-block; }
+
+  .news img {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top; }
+
+  .news .content {
+    display: inline-block;
+    width: 45%; }
+
+
+.upcoming-events {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top; }

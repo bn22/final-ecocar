@@ -1,36 +1,25 @@
 footer {
-  height: 50px;
-}
+  width: 100%;
+  background-color: purple;
+  position: absolute;
+  padding: 10px;
+  bottom: 0; }
 
-.social-media {
-    position: absolute;
-    bottom: 0;
-	li {
-		list-style-type: none;
-	    display: inline-block;
-        margin-left: 0%;
-	}
 
-	.facebook-icon {
-    	background-image: url('../images/Facebook.png');
-    	background-repeat: no-repeat;
-        background-size: contain;
-        height: 5rem;
-        width: 5rem;
-	}
+p {
+  margin: 0 !important;
+  padding: 0; }
 
-	.twitter-icon {
-    	background-image: url('../images/Twitter.png');
-        background-size: contain;
-    	height: 5rem;
-        width: 5rem;
-	}
+.left-content {
+  display: inline-block;
+  color: white; }
 
-	.gmail-icon {
-    	background-image: url('../images/Gmail.png');
-    	background-repeat: no-repeat;
-        background-size: contain;
-    	height: 5rem;
-        width: 5rem;
-	}
-}
+.right-content {
+  padding: 18px 10px 10px 0px;
+  display: inline-block;
+  vertical-align: top;
+  float: right; }
+
+.social-media li {
+  list-style-type: none;
+  display: inline-block; }
