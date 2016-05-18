@@ -1,55 +1,58 @@
 header {
   height: 50px;
 }
-
-* {
-  padding: auto; }
-
-header {
-  height: 50px; }
-
+*{
+  padding: 0 !important; 
+}
 #who-are-we {
-  border: 2px solid #66FFFF; }
+  background: rgba(64,219,26,1);
+  background: -moz-linear-gradient(left, rgba(64,219,26,1) 0%, rgba(126,255,20,1) 99%, rgba(126,255,20,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(64,219,26,1)), color-stop(99%, rgba(126,255,20,1)), color-stop(100%, rgba(126,255,20,1)));
+  background: -webkit-linear-gradient(left, rgba(64,219,26,1) 0%, rgba(126,255,20,1) 99%, rgba(126,255,20,1) 100%);
+  background: -o-linear-gradient(left, rgba(64,219,26,1) 0%, rgba(126,255,20,1) 99%, rgba(126,255,20,1) 100%);
+  background: -ms-linear-gradient(left, rgba(64,219,26,1) 0%, rgba(126,255,20,1) 99%, rgba(126,255,20,1) 100%);
+  background: linear-gradient(to right, rgba(64,219,26,1) 0%, rgba(126,255,20,1) 99%, rgba(126,255,20,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40db1a', endColorstr='#7eff14', GradientType=1 );
+}
 #who-are-we img {
-    margin: 10px;
-    width: 20%;
-    height: 100%;
-    display: inline-block;
-    margin-right: 20px;
-    vertical-align: bottom; }
-#who-are-we .content {
-    width: 75%;
-    display: inline-block;
-    vertical-align: top; }
+  width: 100%;
+  height: 100%;
+}
+#who-content {
+  font-size: 17px;
+  padding: 20px !important;
+}
 
 .summary {
-  border: 2px solid #FFCC66; }
+  background: #FF512F; 
+  background: -webkit-linear-gradient(to left, #FF512F , #F09819); 
+  background: linear-gradient(to left, #FF512F , #F09819); 
+}
 
   .summary img {
-    margin: 10px;
-    width: 25%;
-    height: 100%;
-    display: inline-block; }
+    width: 100%;
+  }
 
-  .summary .content {
-    width: 70%;
-    display: inline-block;
-    vertical-align: top; }
+  #sum-content {
+    font-size: 17px;
+    padding: 30px !important;
+  }
 
 
 .goals {
-  border: 2px solid #66FF33; }
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 
   .goals img {
-    margin: 10px;
-    width: 27%;
-    height: 100%;
-    display: inline-block; }
+    width: 100%;
+  }
 
-  .goals .content {
-    width: 70%;
-    display: inline-block;
-    vertical-align: top; }
+  #goals-content{
+    font-size: 17px;
+    padding: 20px !important;
+  }
 
 #events .upcoming-events {
   display: inline-block;
@@ -81,8 +84,8 @@ header {
       color: #FF9933; }
 
     #events .upcoming-events .upevents p {
-      padding-top: 10px;
-      padding-left: 5px;
+      padding-top: 10px !important;
+      padding-left: 5px !important;
       display: inline-block;
       vertical-align: top; }
 
