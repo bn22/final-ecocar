@@ -1,27 +1,32 @@
 header {
-  height: 50px;
-}
-
-header {
   height: 50px; }
 
-.news {
-  border: 2px solid orange;
-  border-radius: 5px;
-  width: 45%;
-  display: inline-block; }
+#news {
+  padding: 20px !important;
+}
 
-  .news img {
+  #news img {
     width: 50%;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top; 
+  }
 
-  .news .content {
+  #news .content {
     display: inline-block;
-    width: 45%; }
-
-
-.upcoming-events {
-  width: 45%;
-  display: inline-block;
-  vertical-align: top; }
+    width: 50%; 
+    .date{
+      font-size: 12px;
+    }
+    .title{
+      font-size: 20px;
+    }
+  }
+  #news .new{
+    margin: 15px;
+  }
+#upcoming{
+  padding: 20px !important;
+  table{
+    width: 80%;
+  }
+}

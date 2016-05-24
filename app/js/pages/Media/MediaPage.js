@@ -15,20 +15,51 @@ const Media = React.createClass({
         for the next challenge. The UW EcoCAR3 teams goal is to maintain our laboratory for ongoing alternative fuel 
           research beyond the scope of the competition. The UW Advanced Vehicle Works shall continue and thrive.
         </p>
-        <div className="news">
-          <h3>News</h3>
-          <div className="new">
-            <img src="http://uwecocar.com/images/home/car.jpg"/>
-            <div className="content">
-              <i>April 19th, 2012</i>
-              <br/>
-              <b>Kings 5 News</b>
-              <p>Something important happened today</p>
+        <div className="row">
+          <div className="col-md-5" id="news">
+            <h3>News</h3> 
+            <div className="new"> 
+              <img src="http://uwecocar.com/images/home/car.jpg"/>
+              <div className="content">
+                <i className="date">April 19th, 2012</i>
+                <br/>
+                <b className="title">Kings 5 News</b>
+                <p>Something important happened today<br/><a href="#">Learn more<span className="glyphicon glyphicon-chevron-right" aria-hideen="true"></span></a></p>
+              </div>
+            </div>
+            <div className="new"> 
+              <img src="http://uwecocar.com/images/home/car.jpg"/>
+              <div className="content">
+                <i className="date">April 19th, 2012</i>
+                <br/>
+                <b className="title">Kings 5 News</b>
+                <p>Something important happened today<br/><a href="#">Learn more<span className="glyphicon glyphicon-chevron-right" aria-hideen="true"></span></a></p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="upcoming-events">
-          <h3>Upcoming events</h3>
+          <div className="col-md-7" id="upcoming">
+            <h3>Upcoming events</h3>
+            <table className="table table-hover">
+              <thead>
+                <th>Date</th>
+                <th>Event Name</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sep 10, 2016</td>
+                  <td>Something important happened today</td>
+                </tr>
+                <tr>
+                  <td>Sep 10, 2016</td>
+                  <td>Something important happened today</td>
+                </tr>
+                <tr>
+                  <td>Sep 10, 2016</td>
+                  <td>Something important happened today</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     );

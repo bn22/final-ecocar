@@ -11,6 +11,28 @@ const Join = React.createClass({
           and launched an exhaustive outreach program intended to educate consumers on green vehicle technology. With the University of Washingtons 
           background in environmental science and transportation technology, the team is confident in its ability to excel in this competition. 
         </p>
+      <h2>Opening positions</h2>
+        <div className="job">
+          <p className="date">Aug 25</p>
+          <h4>Some fancy job title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <a className="btn btn-info btn-lg btn-block" href="#" role="button">Apply</a>
+          <hr/>
+        </div>
+        <div className="job">
+          <p className="date">Aug 25</p>
+          <h4>Some fancy job title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <a className="btn btn-info btn-lg btn-block" href="#" role="button">Apply</a>
+          <hr/>
+        </div>
+        <div className="job">
+          <p className="date">Aug 25</p>
+          <h4>Some fancy job title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <a className="btn btn-info btn-lg btn-block" href="#" role="button">Apply</a>
+          <hr/>
+        </div>
       </div>
     );
   }

@@ -1,3 +1,15 @@
 header {
   height: 50px;
 }
+.job{
+	padding: 15px !important;
+	.date{
+		float: right;
+		font-size: 12px;
+	}
+	a{
+		margin-left: 80%;	
+		width: 20%;
+		padding: 10px !important;
+	}
+}
