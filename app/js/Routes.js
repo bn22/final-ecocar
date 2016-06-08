@@ -5,11 +5,11 @@ import {Router, Route, IndexRoute} from 'react-router';
 import CreateBrowserHistory        from 'history/lib/createBrowserHistory';
 
 import App                         from './App';
-import HomePage                    from './pages/Home/HomePage';
-import JoinPage                    from './pages/Join/JoinPage';
-import MediaPage                   from './pages/Media/MediaPage';
-import SponsorPage                 from './pages/Sponsor/SponsorPage';
-import TeamPage                    from './pages/Team/TeamPage';
+import HomePage                    from './pages/HomePage';
+import JoinPage                    from './pages/JoinPage';
+import MediaPage                   from './pages/MediaPage';
+import SponsorPage                 from './pages/SponsorPage';
+import TeamPage                    from './pages/TeamPage';
 import NotFoundPage                from './pages/NotFoundPage';
 
 //Creates the routing of the web page
